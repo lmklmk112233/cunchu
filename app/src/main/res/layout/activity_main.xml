@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="请输入姓名"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/et1"
+        android:hint="请输入学号"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="请输入性别"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:id="@+id/btwrite"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:text="写入" />
+
+    <Button
+        android:id="@+id/btread"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+
+        android:text="读出" />
+</LinearLayout>
